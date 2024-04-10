@@ -21,12 +21,12 @@ constructor(branchInfo) {
         bankBranchInstance = this;
         
     }
-    
-
+    //- Return the `bankBranchInstance` whether it's newly created or existing.
+    return bankBranchInstance;
 }
 
 //- If `bankBranchInstance` is null, create a new instance with the provided `bra
-//- Return the `bankBranchInstance` whether it's newly created or existing.
+
 
 }
 
