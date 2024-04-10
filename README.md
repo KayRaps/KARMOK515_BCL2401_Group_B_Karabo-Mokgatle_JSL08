@@ -18,7 +18,18 @@ This code implements a singleton pattern for managing bank branch instances in J
 - It containes a constructor that takes `branchInfo` as a parameter.
 
 # Constructor:
+
 * Checks if `bankBranchInstance` variable is null.
 * If `bankBRanchInstance` is null, it creates a new instance with the provided `branchInfo`.
 * Assigns the new instance to the `bankBranchInstance` variable.
 * Returns `bankBranchInstance`, whether it's newly created or existing.
+
+# Methods:
+
+* `getBranchInfo()` method returns the branchInfo property of the BankBranch instance.
+
+# Usage:
+
+* Create instances of the `BankBranch` class (branchA and branchB) with different branch information.
+* Use the `getBranchInfo` method to retrieve branch information from the instances.
+* Verify that branchA and branchB are both referring to the same instance by comparing them using ===.
