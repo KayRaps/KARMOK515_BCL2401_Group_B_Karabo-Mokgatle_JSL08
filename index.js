@@ -6,7 +6,7 @@ let bankBranchInstance = null;
 
 class BankBranch {
 
-//- Create a constructor that takes `branchInfo` as a parameter.
+//3. Create a constructor that takes `branchInfo` as a parameter.
 
 constructor(branchInfo) {
 
