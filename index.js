@@ -12,8 +12,16 @@ class BankBranch {
 constructor(branchInfo) {
     //- Check if the bankBranchInstance variable is null.
     if (!bankBranchInstance) {
+
+        // If bankBranchInstance is null, create a new instance with the provided branchInfo.
+        this.branchInfo = branchInfo;
+
+        // Assign the new instance to the bankBranchInstance variable.
+
+        bankBranchInstance = this;
         
     }
+    
 
 }
 
