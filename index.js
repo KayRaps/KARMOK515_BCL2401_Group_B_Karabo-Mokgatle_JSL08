@@ -7,7 +7,11 @@ let bankBranchInstance = null;
 // 2. Define a class called `BankBranch` for managing branch information.
 
 class BankBranch {
-    
+//- Create a constructor that takes `branchInfo` as a parameter.
+//- Inside the constructor, check if the `bankBranchInstance` variable is null (i
+//- If `bankBranchInstance` is null, create a new instance with the provided `bra
+//- Return the `bankBranchInstance` whether it's newly created or existing.
+
 }
 
 // 3. In the `BankBranch` class:
