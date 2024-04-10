@@ -55,6 +55,9 @@ console.log(branchB.getBranchInfo()); // { name: 'Branch B', address: '456 Maple
 
 console.log(branchA === branchB); // true
 
+
+
+
 // This pseudo-code provides a step-by-step explanation of how to implement the Singleton Pattern for managing a single instance of the `BankBranch` class throughout the application, ensuring that multiple instances refer to the same object.
 
 // NOTES:
